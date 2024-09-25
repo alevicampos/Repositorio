@@ -15,14 +15,25 @@ public class Ejercicios{
         String curso = entrada.next();
 
         System.out.println("Hola " + nombre + " bienvenido a " + curso);
+        int num1= 0;
+        int num2= 0;
 
-        System.out.println("Introduce el primer número:");
+        while (num1==num2) {
 
-        int num1 = entrada.nextInt();
+            System.out.println("Introduce el primer número:");
 
-        System.out.println("Introduce el segundo número:");
+            num1 = entrada.nextInt();
 
-        int num2 = entrada.nextInt();
+            System.out.println("Introduce el segundo número:");
+
+            num2 = entrada.nextInt();
+
+            if (num1 == num2) {
+
+                System.out.println("ERROR. Los números son iguales");
+
+            }
+        }
 
         System.out.println("La suma de "+num1+ " y " + num2 + " es igual a " + (num1+num2));
 
