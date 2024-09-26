@@ -6,9 +6,15 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-       Ejercicios ejercicio = new Ejercicios();
+       Operadores operadores = new Operadores();
 
-       ejercicio.actividad_inicial();
+       //operadores.aritmeticos ();
+
+        //operadores.asignacion();
+
+        //operadores.relacionales();
+
+        operadores.logicos();
 
 
 
